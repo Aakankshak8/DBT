@@ -1,7 +1,0 @@
-delimiter $
-create procedure pro1()
-begin
-	select "Hello World";
-end $
-delimiter ;
-call pro1();
